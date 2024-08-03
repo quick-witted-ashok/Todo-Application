@@ -1,0 +1,55 @@
+.todo-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  flex-grow: 1;
+  font-weight: 450;
+  flex-shrink: 1;
+  font-size: 20px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 700px;
+}
+.checkbox-label.checked {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.delete-icon-container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  font-size: 30px;
+}
+
+.delete-icon {
+  color: #dc3545;
+}
+
+.timestamp {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.edit {
+  margin-left: 60px;
+  margin-right: 60px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 20px;
+}

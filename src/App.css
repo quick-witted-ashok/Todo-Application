@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.app-container {
+  padding: 50px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.todos-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.todo-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.create-task-heading-subpart {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.todo-item-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.search-input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  margin: 30px;
+}
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  flex-grow: 1;
+}
+
+.checkbox-label.checked {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.delete-icon-container {
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: #dc3545;
+}
