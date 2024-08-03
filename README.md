@@ -8,10 +8,10 @@ System Design:
 
 The system design consists of following Core components:
 
-#TodoInput:A component for Adding new Tasks.
-#TodoList: A component for displaying the lists of tasks.
-#TodoItem:A component for each task item,allowing users to update,mark as done,delete and expand to view additional details like dedscription and timestamp.
-#App:The main component that manages state and orchestrates the behaviour of other components.
+TodoInput:A component for Adding new Tasks.
+TodoList: A component for displaying the lists of tasks.
+TodoItem:A component for each task item,allowing users to update,mark as done,delete and expand to view additional details like dedscription and timestamp.
+App:The main component that manages state and orchestrates the behaviour of other components.
 
 Application Features:
 ->Create Task:Users can add new tasks with a title and description.
